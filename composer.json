@@ -1,0 +1,22 @@
+{
+    "name": "schnabear/php-pandoraslack-bot",
+    "description": "Pandorabots bridge using PHP Slack Bot",
+    "homepage": "https://github.com/schnabear/php-pandoraslack-bot",
+    "keywords": [
+        "pandorabots",
+        "slack"
+    ],
+    "require": {
+        "jclg/php-slack-bot": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "schnabear"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PhpPandoraSlackBot\\": "src"
+        }
+    }
+}
