@@ -4,7 +4,7 @@ namespace PhpPandoraSlackBot;
 
 class PandoraCommand extends \PhpSlackBot\Command\BaseCommand
 {
-    const API_URL = 'http://www.pandorabots.com/pandora/talk-xml';
+    const API_URL = 'https://www.pandorabots.com/pandora/talk-xml';
 
     protected $botid = null;
 
